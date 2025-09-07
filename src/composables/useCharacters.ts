@@ -26,7 +26,7 @@ export const useCharacters = () => {
       if (e instanceof Error) {
         error.value = e.message
       } else {
-        error.value = 'Ocorreu um erro desconhecido.'
+        error.value = 'An unknown error has occurred.'
       }
     } finally {
       loading.value = false
