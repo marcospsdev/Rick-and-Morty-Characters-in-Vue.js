@@ -6,6 +6,8 @@ Arquitetura modular em Vue 3 com Pinia, filtros, favoritos e testes.
   <img src="docs/preview.webp" alt="Grade de personagens" width="900">
 </p>
 
+> **Demo:** https://rick-and-morty-characters-in-vue-js.vercel.app
+
 ---
 
 ## Sumário
@@ -17,6 +19,7 @@ Arquitetura modular em Vue 3 com Pinia, filtros, favoritos e testes.
 - [Estrutura do projeto](#estrutura-do-projeto)
 - [Primeiros passos](#primeiros-passos)
 - [Scripts](#scripts)
+- [Deploy](#deploy)
 - [Autor](#autor)
 
 ---
@@ -61,6 +64,8 @@ A arquitetura do projeto foi projetada para ser modular, seguindo o princípio d
 * **`src/stores`**: O **Pinia** é usado para o gerenciamento de estado global, como a lista de personagens favoritos. A persistência dos favoritos é feita via `localStorage`.
 * **`src/views`**: Contém os componentes de página (`CharacterList`, `CharacterDetails`, `FavoritesList`). Cada `view` é responsável por uma tela específica da aplicação.
 * **`src/types`**: Define todas as interfaces e tipos de dados usados no projeto, garantindo a tipagem segura de ponta a ponta.
+
+---
 
 ---
 
@@ -141,6 +146,12 @@ npm run dev               # http://localhost:5173
 | `npm run lint` | Analisa o código com o ESLint |
 | `npm run format` | Formata o código com o Prettier |
 | `npm test` | Testes unitários |
+
+---
+
+## Deploy
+
+Versão publicada: https://rick-and-morty-characters-in-vue-js.vercel.app
 
 ---
 
